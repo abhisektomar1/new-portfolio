@@ -156,6 +156,37 @@ export const DATA = {
         "",
     },
     {
+      title: "Watermelon",
+      href: "https://watermelon-pearl.vercel.app/",
+      dates: "Apri 2024 - Present",
+      active: true,
+      description:
+        "Designed, developed solid  animated UI Landing page for fun.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Acertinity Ui",
+        "GSAP"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://watermelon-pearl.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/abhisektomar1/watermelon",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/watermelon.png",
+      video: "",
+    },
+    {
       title: "Agrisarathi",
       href: "https://agrisarathi.com",
       dates: "Apri 2024 - Present",
