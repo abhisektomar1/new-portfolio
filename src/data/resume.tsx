@@ -128,6 +128,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Two good",
+      href: "https://twogood.com.au/",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Made a award winner landing page for my company",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "GSAP"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://twogood.com.au/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/abhisektomar1/two-good",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/twoGood.png",
+      video:
+        "",
+    },
+    {
       title: "Subscription app",
       href: "https://subscription.app",
       dates: "Jan 2022 - Feb 2023",
@@ -152,128 +182,6 @@ export const DATA = {
         },
       ],
       image: "/projects/subs.png",
-      video:
-        "",
-    },
-    {
-      title: "Watermelon",
-      href: "https://watermelon-pearl.vercel.app/",
-      dates: "Apri 2024 - Present",
-      active: true,
-      description:
-        "Designed, developed solid  animated UI Landing page for fun.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Acertinity Ui",
-        "GSAP"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://watermelon-pearl.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/abhisektomar1/watermelon",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/watermelon.png",
-      video: "",
-    },
-    {
-      title: "Agrisarathi",
-      href: "https://agrisarathi.com",
-      dates: "Apri 2024 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI Landing page.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Acertinity Ui"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://agrisarathi.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/abhisektomar1/agrisarathi-next-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/agri.png",
-      video: "",
-    },
-    {
-      title: "PDF Editor",
-      href: "https://pdf-editor-abhi-vert.vercel.app/",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source pdf editor using react and svelte.",
-      technologies: [
-        "React js",
-        "Typescript",
-        "canvas",
-        "TailwindCSS",
-        "Svetle"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://pdf-editor-abhi-vert.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/abhisektomar1/pdf-editor",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/pdf.png",
-      video: "",
-    },
-    {
-      title: "Ortho Appointment App",
-      href: "https://ortho-app-dental.vercel.app",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Designed a fully functional patients management app for doctors of hospital with appointment system",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Appwrite",
-        "No sql",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ortho-app-dental.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/abhisektomar1/ortho-app-",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/ortho.png",
       video:
         "",
     },
@@ -338,6 +246,129 @@ export const DATA = {
       video:
         "",
     },
+    {
+      title: "Watermelon",
+      href: "https://watermelon-pearl.vercel.app/",
+      dates: "Apri 2024 - Present",
+      active: true,
+      description:
+        "Designed, developed solid  animated UI Landing page for fun.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Acertinity Ui",
+        "GSAP"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://watermelon-pearl.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/abhisektomar1/watermelon",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/watermelon.png",
+      video: "",
+    },
+    // {
+    //   title: "Agrisarathi",
+    //   href: "https://agrisarathi.com",
+    //   dates: "Apri 2024 - Present",
+    //   active: true,
+    //   description:
+    //     "Designed, developed and sold animated UI Landing page.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //     "Acertinity Ui"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://agrisarathi.com",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/abhisektomar1/agrisarathi-next-app",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/projects/agri.png",
+    //   video: "",
+    // },
+    {
+      title: "PDF Editor",
+      href: "https://pdf-editor-abhi-vert.vercel.app/",
+      dates: "April 2023 - September 2023",
+      active: true,
+      description:
+        "Developed an open-source pdf editor using react and svelte.",
+      technologies: [
+        "React js",
+        "Typescript",
+        "canvas",
+        "TailwindCSS",
+        "Svetle"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://pdf-editor-abhi-vert.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/abhisektomar1/pdf-editor",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/pdf.png",
+      video: "",
+    },
+    {
+      title: "Ortho Appointment App",
+      href: "https://ortho-app-dental.vercel.app",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Designed a fully functional patients management app for doctors of hospital with appointment system",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Appwrite",
+        "No sql",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ortho-app-dental.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/abhisektomar1/ortho-app-",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/ortho.png",
+      video:
+        "",
+    },
+  
   ],
   // hackathons: [
   //   {
