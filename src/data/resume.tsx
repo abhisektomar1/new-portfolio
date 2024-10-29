@@ -158,6 +158,36 @@ export const DATA = {
         "",
     },
     {
+      title: "Opinion Trading",
+      href: "https://opinion-frontend.vercel.app",
+      dates: "Oct 2024 - Nov 2024",
+      active: true,
+      description:
+        "A opinion trading app which lets trade on opinios",
+        technologies: [
+          "Next.js",
+          "Typescript",
+          "TailwindCSS",
+          "Shadcn UI",
+          "GSAP"
+        ],
+      links: [
+        {
+          type: "Website",
+          href: "https://opinion-frontend.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/abhisektomar1/opinion-frontend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/opinion.png",
+      video:
+        "",
+    },
+    {
       title: "Subscription app",
       href: "https://subscription.app",
       dates: "Jan 2022 - Feb 2023",
