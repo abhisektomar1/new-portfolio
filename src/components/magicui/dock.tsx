@@ -11,6 +11,7 @@ export interface DockProps extends VariantProps<typeof dockVariants> {
   distance?: number;
   children: React.ReactNode;
 }
+//jjunjkk
 
 const DEFAULT_MAGNIFICATION = 60;
 const DEFAULT_DISTANCE = 140;
