@@ -8,9 +8,9 @@ export const DATA = {
   location: "Noida, IN",
   locationLink: "https://www.google.com/maps/place/delhi",
   description:
-    "Software Engineer turned Streamer And Teacher. I love building things and helping people. Very active on Twitter.",
+    "Software Engineer . I love building things and helping people. Very active on Twitter.",
   summary:
-    "Results-driven Senior [React Developer](#education) with 3+ years of experience in frontend development and leading cross-functional teams. Proven track record of delivering high-performance, scalable web applications using cutting-edge technologies. Expertise in optimizing code efficiency and implementing best practices to enhance user experiences",
+    "Results-driven Senior [React Developer](#education) with 3+ years of experience in frontend development and advance backend and leading cross-functional teams. Proven track record of delivering high-performance, scalable web applications using cutting-edge technologies. Expertise in optimizing code efficiency and implementing best practices to enhance user experiences",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
